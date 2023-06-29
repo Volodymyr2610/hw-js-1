@@ -468,10 +468,254 @@ function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
    
 //////////////////////////////36
 
-function checkForSpam(message) {
-    let result;
+// function checkForSpam(message) {
+//     let result;
   
-    result = message.toLowerCase().includes(`spam`) || message.toLowerCase().includes(`sale`);
-    return result;
-  }
+//     result = message.toLowerCase().includes(`spam`) || message.toLowerCase().includes(`sale`);
+//     return result;
+//   }
   
+
+
+/////////////////////// 
+/////////// HOME WORK 2
+
+// function checkAge(age) {
+//   if (age >= 18) { // Change this line
+//     return "You are an adult";
+//   }
+
+//   return "You are a minor";
+// }
+// console.log(checkAge);
+
+//////////////////////////////////// 2
+// function checkPassword(password) {
+//   const ADMIN_PASSWORD = "jqueryismyjam";
+//   // Change code below this line
+
+
+//   if (password === ADMIN_PASSWORD) {
+//     return "Welcome!";
+//   } 
+//     return "Access denied, wrong password!";
+    
+//   // Change code above this line
+// }
+
+////////////////////////////////// 3 /////////////
+
+// function checkStorage(available, ordered) {
+//   // Change code below this line
+  
+
+//   if (ordered === 0) {
+//     return "Your order is empty!";
+//   }  if (ordered > available) {
+//     return "Your order is too large, not enough goods in stock!";
+//   } 
+//     return "The order is accepted, our manager will contact you";
+  
+//   // Change code above this line
+// }
+
+
+////////////////////// 4 ////////////
+
+// const fruits = ["apple", "plum", "pear", "orange"]
+
+////////////////////// 5 /////////////
+
+// const fruits = ["apple", "plum", "pear", "orange"]
+// const firstElement = fruits[0]
+// const secondElement = fruits[1]
+// const lastElement = fruits[fruits.length - 1]
+
+///////////////// 6 //////////////////////
+
+// const fruits = ["apple", "plum", "pear", "orange"];
+// fruits[1] = "peach";
+// fruits[3] = "banana"
+// console.log(fruits);
+
+//////////////// 7 //////////////////
+
+// const fruits = ["apple", "peach", "pear", "banana"];
+// const fruitsArrayLength = fruits.length
+
+/////////////// 8 ////////////////
+
+// const fruits = ["apple", "peach", "pear", "banana"];
+// const lastElementIndex = fruits.length - 1;
+// const lastElement = fruits[lastElementIndex];
+
+//////////////// 9 //////////////
+// function getExtremeElements(array) {
+//   // Change code below this line
+//   return [array[0], array[array.length - 1]];
+  
+// }
+// console.log(getExtremeElements([1, 2, 3, 4, 5]));
+// getExtremeElements([1, 2, 3, 4, 5])
+// getExtremeElements(["Earth", "Mars", "Venus"])
+// getExtremeElements(["apple", "peach", "pear", "banana"])
+
+/////////////////// 10 //////////////////////////
+
+// function splitMessage(message, delimiter) {
+//   let words;
+//   // Change code below this line
+//   words = message.split(delimiter);
+//   // Change code above this line
+//   return words;
+// }
+
+// splitMessage(message, delimiter)
+// splitMessage("Mango hurries to the train", " ") повертає ["Mango", "hurries", "to", "the", "train"]
+// splitMessage("Mango", "") повертає ["M", "a", "n", "g", "o"]
+// splitMessage("best_for_week", "_") повертає ["best", "for", "week"]
+
+//////////////////// 11 /////////////////////
+
+// function calculateEngravingPrice(message, pricePerWord) {
+//   return message.split(` `).length * pricePerWord;
+// }
+
+////////////////// 12 ///////////////
+// function makeStringFromArray(array, delimiter) {
+//   let string;
+//   // Change code below this line
+
+//   string = array.join(delimiter);
+
+//   // Change code above this line
+//   return string;
+// }
+
+////////////////////// 13 ///////////
+
+// function slugify(title) {
+ 
+//   return title.toLowerCase().split(` `).join(`-`);
+// }
+// console.log(slugify("Arrays for begginers"));  
+// slugify("English for developer") 
+// slugify("Ten secrets of JavaScript") 
+// slugify("How to become a JUNIOR developer in TWO WEEKS") 
+
+////////////////////// 14 ///////////////////
+
+// const fruits = ['apple', 'plum', 'pear', 'orange', 'banana'];
+
+// // Change code below this line
+// const firstTwoEls = fruits.slice (0, 2);
+// const nonExtremeEls = fruits.slice (1, fruits.length - 1);
+// const lastThreeEls = fruits.slice (-3);
+
+///////////////////// 15 ///////////////////
+// const oldClients = ['Mango', 'Ajax', 'Poly', 'Kiwi'];
+// const newClients = ['Peach', 'Houston'];
+
+// const allClients = oldClients.concat(newClients); // Change this line
+
+/////////////////////// 16 ///////////////
+
+// function makeArray(firstArray, secondArray, maxLength) {
+ 
+//   return firstArray.concat(secondArray).slice(0, maxLength);
+// }
+
+///////////////// 17 ///////////////////
+
+// const start = 3;
+// const end = 7;
+
+// for (let i = start; i <= end; i += 1) { // Change this line
+//   console.log(i);
+// }
+
+////////////////// 18 ////////////////
+
+// function calculateTotal(number) {
+ 
+//   let result = 0;
+
+//   for (let i = 0; i <= number; i ++) {
+//     result += i;
+//   }
+
+//   return result;
+
+//  }
+
+////////////////// 19 //////////////
+
+// const fruits = ['apple', 'plum', 'pear', 'orange'];
+
+// for (let i = 0; i < fruits.length; i +=1) { 
+//   const fruit = fruits[i]; 
+//   console.log(fruit);
+// }
+
+
+//////////////////// 20 ///////////////
+
+// function calculateTotalPrice(order) {
+//   let total = 0;
+  
+//   for (let number of order) {
+//     total += number;
+//   }
+//   return total;
+// }
+
+/////////////////// 21 /////////////////
+
+// function findLongestWord(string) {
+//   let longestWord = '';
+
+//   for (let word of (string.split(' '))) {
+//     if (word.length > longestWord.length) {
+//       longestWord = word;
+//     }
+//   }
+
+//   return longestWord;
+// }
+
+/////////////////////// 22 /////////////
+
+// function createArrayOfNumbers(min, max) {
+//   const numbers = [];
+//   for (let i = min; i <= max; i++) {
+//     numbers.push(i);
+   
+    
+//   }
+//   return numbers;
+// }
+
+/////////////////// 23 ///////////
+
+// function filterArray(numbers, value) {
+
+//   const result = [];
+  
+//   for (let number of numbers) {
+//     if (number > value) {
+//       result.push(number);
+//     }
+//   }
+
+//   return result;
+
+// }
+
+
+//////////////////////// 24 //////////////
+
+// function checkFruit(fruit) {
+//   const fruits = ["apple", "plum", "pear", "orange"];
+
+//   return fruits.includes(fruit); 
+// }
