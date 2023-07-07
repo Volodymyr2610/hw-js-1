@@ -1,4 +1,3 @@
-
 // const productName = 'Droid';
 
 // console.log(productName);
@@ -22,7 +21,6 @@
 // console.log(pricePerItem);
 
 /////////////////////////////////////////
-
 
 // const topSpeed = 160;
 
@@ -100,12 +98,12 @@
 
 ///////////////////////////////////////////
 // function add(a, b, c) {
-    
+
 //     return(a+b+c);
 //   }
-  
+
 //   add(2, 5, 8); // 15
-  
+
 //   console.log(add(15, 27, 10));
 //   console.log(add(10, 20, 30));
 //   console.log(add(5, 10, 15));
@@ -123,7 +121,7 @@
 // function calculateTotalPrice (orderedQuantity, pricePerItem) {
 //     // Change code below this line
 //     const totalPrice = orderedQuantity * pricePerItem;
-  
+
 //     // Change code above this line
 //     return totalPrice;
 //   };
@@ -134,7 +132,7 @@
 //     // Change code below this line
 //     const totalPrice = orderedQuantity * pricePerDroid + deliveryFee;
 // const message = `You ordered droids worth ${totalPrice} credits. Delivery (${deliveryFee} credits) is included in total price.`
-  
+
 //     // Change code above this line
 //     return message;
 //   }
@@ -143,7 +141,7 @@
 // function isAdult(age) {
 //     // Change code below this line
 //     const passed = (age>=18);
-  
+
 //     // Change code above this line
 //     return passed;
 //   }
@@ -158,7 +156,7 @@
 //     const SAVED_PASSWORD = 'jqueryismyjam';
 //     // Change code below this line
 //     const isMatch = password === `jqueryismyjam`;
-  
+
 //     // Change code above this line
 //     return isMatch;
 //   }
@@ -180,13 +178,12 @@
 
 // function checkStorage(available, ordered) {
 //     let message;
-    
+
 //     if(ordered > available) {
 //         message = "Not enough goods in stock!" }
 //         else {
 //         message = "Order is processed, our manager will contact you."
 //       }
-
 
 //     return message;
 //   }
@@ -197,14 +194,12 @@
 // checkStorage(200, 150);
 // checkStorage(150, 180);
 
-
 ////////////////////////////
 
 // let a = 5;
 // let b = 10;
 // let c = 15;
 // let d = 20;
-
 
 // a += 2;
 // b -= 4;
@@ -213,33 +208,33 @@
 
 //////////////////////////18
 
-function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
-    let message;
-    let totalPrice = pricePerDroid * orderedQuantity;
-    if (totalPrice > customerCredits) {
-      message = "Insufficient funds!";
-    } else {
-      message = `You ordered ${orderedQuantity} droids, you have ${
-        customerCredits - totalPrice
-      } credits left`;
-    }
+// function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
+//   let message;
+//   let totalPrice = pricePerDroid * orderedQuantity;
+//   if (totalPrice > customerCredits) {
+//     message = "Insufficient funds!";
+//   } else {
+//     message = `You ordered ${orderedQuantity} droids, you have ${
+//       customerCredits - totalPrice
+//     } credits left`;
+//   }
 
-    return message;
-  }
+//   return message;
+// }
 
-  ////////////////////////////////////////////////////19
+////////////////////////////////////////////////////19
 //   function checkPassword(password) {
 //     const ADMIN_PASSWORD = 'jqueryismyjam';
 //     let message;
-  
-//     if (password === null) { 
+
+//     if (password === null) {
 //       message =  'Canceled by user!';
 //     } else if (password === `jqueryismyjam`) {
 //       message = 'Welcome!';
 //     } else {
 //       message = 'Access denied, wrong password!';
 //     }
-  
+
 //     return message;
 //   }
 /////////////////////////////////////////////////20
@@ -253,15 +248,15 @@ function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
 //         } else {
 //             message = `The order is accepted, our manager will contact you`
 //         }
-    
+
 //     return message;
 //   }
-  
+
 ///////////////////////////////////////////////21
 
 // function isNumberInRange(start, end, number) {
 //     const isInRange = number >= start && number <= end; // Change this line
-  
+
 //     return isInRange;
 //   }
 
@@ -269,7 +264,7 @@ function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
 
 // function checkIfCanAccessContent(subType) {
 //     const canAccessContent = (subType == 'pro' || subType == 'vip'); // Change this line
-  
+
 //     return canAccessContent;
 //   }
 
@@ -278,12 +273,11 @@ function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
 // function isNumberNotInRange(start, end, number) {
 //     const isInRange = number >= start && number <= end;
 //     const isNotInRange = !isInRange;
-  
+
 //     return isNotInRange;
 //   }
 
 /////////////////////////////////////////24
-
 
 // function getDiscount(totalSpent) {
 //     const BASE_DISCOUNT = 0;
@@ -300,10 +294,10 @@ function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
 //       } else {
 //         discount = GOLD_DISCOUNT;
 //       }
-      
+
 //       return discount;
 //     }
-///////////////////////////////////////////////   25 
+///////////////////////////////////////////////   25
 
 // function checkStorage(available, ordered) {
 //     let message;
@@ -329,30 +323,29 @@ function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
 // function checkPassword(password) {
 //     const ADMIN_PASSWORD = "jqueryismyjam";
 //     let message;
-   
+
 //     message = password === ADMIN_PASSWORD ? "Access is allowed" : "Access denied, wrong password!";
 //     return message;
 //   }
-  /////////////////////////////////////////////////////////////////////////////////// 27
+/////////////////////////////////////////////////////////////////////////////////// 27
 
 //   function getSubscriptionPrice(type) {
 //     let price;
-    
-  
-//    switch (type) { 
-//       case "starter": 
-//         price = 0; 
+
+//    switch (type) {
+//       case "starter":
+//         price = 0;
 //         break;
-  
-//       case "professional": 
-//         price = 20; 
+
+//       case "professional":
+//         price = 20;
 //         break;
-  
-//       case "organization": 
-//         price = 50; 
+
+//       case "organization":
+//         price = 50;
 //         break;
 //     }
-  
+
 //     return price;
 //   }
 
@@ -376,9 +369,8 @@ function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
 
 //     return message;
 //   }
-  
 
-/////////////////////////////////////////////// 29 
+/////////////////////////////////////////////// 29
 // function getShippingCost(country) {
 //     let message;
 
@@ -386,19 +378,19 @@ function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
 
 //     switch (country) {
 //         case `China`:
-//             price = 100;  
+//             price = 100;
 //             break;
 
 //             case `Jamaica`:
-//                 price = 120;  
+//                 price = 120;
 //                 break;
 
 //             case `Australia`:
-//                 price = 170;  
+//                 price = 170;
 //                 break;
-                
+
 //             case `Chile`:
-//                 price = 250;  
+//                 price = 250;
 //                 break;
 //         default:
 //             return "Sorry, there is no delivery to your country";
@@ -418,14 +410,13 @@ function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
 
 // function getNameLength(name) {
 //     const message = `Name ${name} is ${name.length} characters long`; // Change this line
-  
+
 //     return message;
 //   }
-  
-  ////////////////////////////////////////31
+
+////////////////////////////////////////31
 
 //   const courseTopic = "JavaScript essentials";
-
 
 // const courseTopicLength = courseTopic.length;
 // const firstElement = courseTopic [0];
@@ -434,50 +425,47 @@ function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
 //////////////////////////////32
 
 // function getSubstring(string, length) {
-//     const substring = string.slice (0, length); 
-  
+//     const substring = string.slice (0, length);
+
 //     return substring;
 //   }
 
-  ////////////////////////////////////////33
+////////////////////////////////////////33
 
 //   function formatMessage(message, maxLength) {
 //     let result;
-    
-    
+
 //     if (message.length > maxLength) {result = message.slice(0, maxLength) + '...';
-//       } 
+//       }
 //       else {
 //         result = message;
 //       }
 //     return result;
 //   }
-  /////////////////////////////////////////////////34
+/////////////////////////////////////////////////34
 
 //   function normalizeInput(input) {
-//     const normalizedInput = input.toLowerCase(); 
-  
+//     const normalizedInput = input.toLowerCase();
+
 //     return normalizedInput;
 //   }
-  
-  ////////////////////////////////35
+
+////////////////////////////////35
 //   function checkForName(fullName, name) {
-//     const result = fullName.includes (name); 
+//     const result = fullName.includes (name);
 //      return result;
 //    }
-   
+
 //////////////////////////////36
 
 // function checkForSpam(message) {
 //     let result;
-  
+
 //     result = message.toLowerCase().includes(`spam`) || message.toLowerCase().includes(`sale`);
 //     return result;
 //   }
-  
 
-
-/////////////////////// 
+///////////////////////
 /////////// HOME WORK 2
 
 // function checkAge(age) {
@@ -494,12 +482,11 @@ function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
 //   const ADMIN_PASSWORD = "jqueryismyjam";
 //   // Change code below this line
 
-
 //   if (password === ADMIN_PASSWORD) {
 //     return "Welcome!";
-//   } 
+//   }
 //     return "Access denied, wrong password!";
-    
+
 //   // Change code above this line
 // }
 
@@ -507,18 +494,16 @@ function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
 
 // function checkStorage(available, ordered) {
 //   // Change code below this line
-  
 
 //   if (ordered === 0) {
 //     return "Your order is empty!";
 //   }  if (ordered > available) {
 //     return "Your order is too large, not enough goods in stock!";
-//   } 
+//   }
 //     return "The order is accepted, our manager will contact you";
-  
+
 //   // Change code above this line
 // }
-
 
 ////////////////////// 4 ////////////
 
@@ -553,7 +538,7 @@ function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
 // function getExtremeElements(array) {
 //   // Change code below this line
 //   return [array[0], array[array.length - 1]];
-  
+
 // }
 // console.log(getExtremeElements([1, 2, 3, 4, 5]));
 // getExtremeElements([1, 2, 3, 4, 5])
@@ -595,13 +580,13 @@ function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
 ////////////////////// 13 ///////////
 
 // function slugify(title) {
- 
+
 //   return title.toLowerCase().split(` `).join(`-`);
 // }
-// console.log(slugify("Arrays for begginers"));  
-// slugify("English for developer") 
-// slugify("Ten secrets of JavaScript") 
-// slugify("How to become a JUNIOR developer in TWO WEEKS") 
+// console.log(slugify("Arrays for begginers"));
+// slugify("English for developer")
+// slugify("Ten secrets of JavaScript")
+// slugify("How to become a JUNIOR developer in TWO WEEKS")
 
 ////////////////////// 14 ///////////////////
 
@@ -621,7 +606,7 @@ function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
 /////////////////////// 16 ///////////////
 
 // function makeArray(firstArray, secondArray, maxLength) {
- 
+
 //   return firstArray.concat(secondArray).slice(0, maxLength);
 // }
 
@@ -637,7 +622,7 @@ function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
 ////////////////// 18 ////////////////
 
 // function calculateTotal(number) {
- 
+
 //   let result = 0;
 
 //   for (let i = 0; i <= number; i ++) {
@@ -652,17 +637,16 @@ function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
 
 // const fruits = ['apple', 'plum', 'pear', 'orange'];
 
-// for (let i = 0; i < fruits.length; i +=1) { 
-//   const fruit = fruits[i]; 
+// for (let i = 0; i < fruits.length; i +=1) {
+//   const fruit = fruits[i];
 //   console.log(fruit);
 // }
-
 
 //////////////////// 20 ///////////////
 
 // function calculateTotalPrice(order) {
 //   let total = 0;
-  
+
 //   for (let number of order) {
 //     total += number;
 //   }
@@ -689,8 +673,7 @@ function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
 //   const numbers = [];
 //   for (let i = min; i <= max; i++) {
 //     numbers.push(i);
-   
-    
+
 //   }
 //   return numbers;
 // }
@@ -700,7 +683,7 @@ function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
 // function filterArray(numbers, value) {
 
 //   const result = [];
-  
+
 //   for (let number of numbers) {
 //     if (number > value) {
 //       result.push(number);
@@ -711,11 +694,1042 @@ function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
 
 // }
 
-
 //////////////////////// 24 //////////////
 
 // function checkFruit(fruit) {
 //   const fruits = ["apple", "plum", "pear", "orange"];
 
-//   return fruits.includes(fruit); 
+//   return fruits.includes(fruit);
 // }
+
+////////////////////// 25 ///////////////
+
+// function getCommonElements(array1, array2) {
+// const commonArray = array1.concat(array2);
+// const resultArray = [];
+
+// for (let number of commonArray) {
+//   if (array1.includes(number) && array2.includes(number) && !resultArray.includes(number)) {
+//     resultArray.push(number);
+//   }
+// }
+
+// return resultArray;
+
+// }
+
+////////////////////// 26 /////////////////
+
+// function calculateTotalPrice(order) {
+//   let total = 0;
+//   // Change code below this line
+
+//   for (const number of order) {
+//     total += number;
+//   }
+
+//   return total;
+// }
+
+////////////////////// 27 ////////////////
+
+// function filterArray(numbers, value) {
+
+//   const filteredNumbers = [];
+
+//   for (const number of numbers) {
+
+//     if (number > value) {
+//       filteredNumbers.push(number);
+//     }
+//   }
+
+//   return filteredNumbers;
+
+// }
+
+/////////////////////////// 28 ////////////////
+
+// const a = 3 % 3;
+// const b = 4 % 3;
+// const c = 11 % 4;
+// const d = 12 % 7;
+// const e = 8 % 3;
+
+////////////////////////// 29 //////////////////
+
+// function getEvenNumbers(start, end) {
+//   const totalArray = [];
+//   for (let i = start; i <= end; i ++) {
+//     if (i % 2 === 0) {
+//       totalArray.push(i);
+//     }
+//   }
+//   return totalArray
+//  }
+
+//////////////// 30 //////////////////
+
+// const start = 6;
+// const end = 27;
+// let number;
+
+// for (let i = start; i < end; i += 1) {
+//   if (i % 5 === 0) {
+//     number = i;
+//     break;
+//   }
+// }
+
+//////////////// 31 ///////////////
+
+// function findNumber(start, end, divisor) {
+
+//   let number;
+
+//   for (let i = start; i < end; i += 1) {
+//     if (i % divisor === 0) {
+//       return number = i;
+
+//     }
+//   }
+
+// }
+
+//////////////// 32 ////////////////
+
+// function includes(array, value) {
+
+//   for (let element of array) {
+//     if (element === value) {
+//       return true;
+//     }
+//   }
+//   return false;
+// }
+
+////////////////////////////////////////////////////////
+/////////// HOME WORK 3 ////////////////////////////////
+///////////////////////////////////////////////////////
+
+//////////////// 1 ////////////////
+
+// const apartment = {
+//   imgUrl: "https://via.placeholder.com/640x480",
+//   descr: "Spacious apartment in the city center",
+//   rating: 4,
+//   price: 2153,
+//   tags: ["premium", "promoted", "top"],
+// };
+
+//////////////// 2 ////////////////
+
+// const apartment = {
+//   imgUrl: "https://via.placeholder.com/640x480",
+//   descr: "Spacious apartment in the city center",
+//   rating: 4,
+//   price: 2153,
+//   tags: ["premium", "promoted", "top"],
+//   owner: {
+//     name: "Henry",
+//     phone: "982-126-1588",
+//     email: "henry.carter@aptmail.com",
+//   },
+// };
+
+//////////////////3////////////////
+
+// const apartment = {
+//   imgUrl: "https://via.placeholder.com/640x480",
+//   descr: "Spacious apartment in the city center",
+//   rating: 4,
+//   price: 2153,
+//   tags: ["premium", "promoted", "top"],
+// };
+
+// // Change code below this line
+// const aptRating = apartment.rating;
+// const aptDescr = apartment.descr;
+// const aptPrice = apartment.price;
+// const aptTags = apartment.tags;
+// Change code above this line
+
+//////////////////// 4 ///////////////
+
+// const apartment = {
+//   imgUrl: "https://via.placeholder.com/640x480",
+//   descr: "Spacious apartment in the city center",
+//   rating: 4,
+//   price: 2153,
+//   tags: ["premium", "promoted", "top"],
+//   owner: {
+//     name: "Henry",
+//     phone: "982-126-1588",
+//     email: "henry.carter@aptmail.com",
+//   },
+// };
+
+// // Change code below this line
+// const ownerName = apartment.owner.name;
+// const ownerPhone = apartment.owner.phone;
+// const ownerEmail = apartment.owner.email;
+// const numberOfTags = apartment.tags.length;
+// const firstTag = apartment.tags[0];
+// const lastTag = apartment.tags[apartment.tags.length-1];
+// // Change code above this line
+
+/////////////////////////////// 5
+
+// const apartment = {
+//   imgUrl: "https://via.placeholder.com/640x480",
+//   descr: "Spacious apartment in the city center",
+//   rating: 4,
+//   price: 2153,
+//   tags: ["premium", "promoted", "top"],
+// };
+
+// // Change code below this line
+
+// const aptRating = apartment['rating'];
+// const aptDescr = apartment['descr'];
+// const aptPrice = apartment['price'];
+// const aptTags = apartment['tags'];
+// Change code above this line
+
+/////////////////6/////////////////
+
+// const apartment = {
+//   imgUrl: "https://via.placeholder.com/640x480",
+//   descr: "Spacious apartment in the city center",
+//   rating: 4,
+//   price: 2153,
+//   tags: ["premium", "promoted", "top"],
+//   owner: {
+//     name: "Henry",
+//     phone: "982-126-1588",
+//     email: "henry.carter@aptmail.com",
+//   },
+// };
+// apartment.price = 5000;
+// apartment.rating = 4.7;
+// apartment.owner.name = "Henry Sibola";
+// apartment.tags.push ('trusted');
+
+//////////////////// 7 //////////
+
+// const apartment = {
+//   imgUrl: "https://via.placeholder.com/640x480",
+//   descr: "Spacious apartment in the city center",
+//   rating: 4.7,
+//   price: 5000,
+//   tags: ["premium", "promoted", "top", "trusted"],
+//   owner: {
+//     name: "Henry Sibola",
+//     phone: "982-126-1588",
+//     email: "henry.carter@aptmail.com",
+//   },
+// };
+
+// apartment.area = 60;
+// apartment.rooms = 3;
+// apartment.location = {
+//   country: "Jamaica",
+//   city: "Kingston",
+// };
+
+///////////////////////////// 8 //////////////////
+
+// const name = "Repair Droid";
+// const price = 2500;
+// const image = "https://via.placeholder.com/640x480";
+// const tags = ["on sale", "trending", "best buy"];
+
+// const product = {
+//   name,
+//   price,
+//   image,
+//   tags,
+//   // Change code below this line
+//   // Change code above this line
+// };
+
+//////////////////////// 9 ////////////////
+
+// const emailInputName = "email";
+// const passwordInputName = "password";
+
+// const credentials = {
+//   // Change code below this line
+
+// [emailInputName] : "henry.carter@aptmail.com",
+// [passwordInputName] : "jqueryismyjam"
+
+//   // Change code above this line
+// };
+
+///////////////////// 10 //////////
+
+// const apartment = {
+//   descr: "Spacious apartment in the city center",
+//   rating: 4,
+//   price: 2153,
+// };
+// const keys = [];
+// const values = [];
+
+// for (const key in apartment) {
+//   keys.push(key);
+// values.push(apartment[key]);
+// }
+// Change code below this line
+
+///////////////////// 11 /////////////////
+// const keys = [];
+// const values = [];
+// const advert = {
+//   service: "apt",
+// };
+// const apartment = Object.create(advert);
+// apartment.descr = "Spacious apartment in the city center";
+// apartment.rating = 4;
+// apartment.price = 2153;
+
+// for (const key in apartment) {
+
+//   if (apartment.hasOwnProperty(key)) {
+//     keys.push(key);
+//     values.push(apartment[key]);
+//   }
+
+// }
+
+////////////////////// 12 ////////////////
+
+// function countProps(object) {
+//   let propCount = 0;
+//   // Change code below this line
+
+//   for (const prop in object) {
+//     if (object.hasOwnProperty(prop)) {
+//       propCount++;
+//     }
+//   }
+
+//   // Change code above this line
+//   return propCount;
+// }
+
+/////////////////////// 13 /////////////
+
+// const apartment = {
+//   descr: "Spacious apartment in the city center",
+//   rating: 4,
+//   price: 2153,
+// };
+// const values = [];
+//
+// const keys = Object.keys(apartment);
+// for (const key of keys) {
+//   values.push(apartment[key])
+// }
+
+////////////////////// 14 //////////////
+// function countProps(object) {
+
+//   return Object.keys(object).length;
+
+// }
+
+/////////////////////// 15 ///////////
+
+// const apartment = {
+//   descr: "Spacious apartment in the city center",
+//   rating: 4,
+//   price: 2153,
+// };
+// // Change code below this line
+// const keys = Object.keys(apartment);
+// const values = Object.values(apartment);
+
+///////////////////// 16 /////////
+
+// function countTotalSalary(salaries) {
+//   let totalSalary = 0;
+//  for (const salary of Object.values(salaries)) {
+//   totalSalary += salary
+//  }
+//   return totalSalary;
+// }
+
+/////////////////  17 ///////////////
+
+// const colors = [
+//   { hex: "#f44336", rgb: "244,67,54" },
+//   { hex: "#2196f3", rgb: "33,150,243" },
+//   { hex: "#4caf50", rgb: "76,175,80" },
+//   { hex: "#ffeb3b", rgb: "255,235,59" },
+// ];
+
+// const hexColors = [];
+// const rgbColors = [];
+// for (const color of colors) {
+//   hexColors.push(color.hex);
+//   rgbColors.push(color.rgb)
+
+// }
+
+// //////////////////////// 18 //////
+
+// const products = [
+//   { name: "Radar", price: 1300, quantity: 4 },
+//   { name: "Scanner", price: 2700, quantity: 3 },
+//   { name: "Droid", price: 400, quantity: 7 },
+//   { name: "Grip", price: 1200, quantity: 9 },
+// ];
+
+// function getProductPrice(productName) {
+// for (const product of products) {
+//   if (product.name === productName) {
+//     return product.price
+//   }
+// }
+// return null
+// }
+
+///////////////// 19 ////////////////
+
+// const products = [
+//   { name: "Radar", price: 1300, quantity: 4 },
+//   { name: "Scanner", price: 2700, quantity: 3 },
+//   { name: "Droid", price: 400, quantity: 7 },
+//   { name: "Grip", price: 1200, quantity: 9 },
+// ];
+
+// function getAllPropValues(propName) {
+//   // Change code below this line
+
+//   const result = [];
+
+//   for (let product of products) {
+//     if (product[propName] !== undefined) {
+//       result.push(product[propName])
+//     }
+//   }
+
+//   return result;
+
+//   // Change code above this line
+// }
+
+/////////////// 20 ////////////////
+
+// const products = [
+//   { name: "Radar", price: 1300, quantity: 4 },
+//   { name: "Scanner", price: 2700, quantity: 3 },
+//   { name: "Droid", price: 400, quantity: 7 },
+//   { name: "Grip", price: 1200, quantity: 9 },
+// ];
+
+// function calculateTotalPrice(productName) {
+//   let result = 0
+
+//  for (let product of products) {
+//    if (product.name === productName) {
+//      result = product.price * product.quantity;
+//      break
+//    }
+
+//  }
+
+//  return result
+//  }
+
+///////////////////////// 21 //////////////
+
+// const highTemperatures = {
+//   yesterday: 28,
+//   today: 26,
+//   tomorrow: 33,
+// };
+// // Change code below this line
+// const {yesterday, today, tomorrow} = highTemperatures;
+
+// // Change code above this line
+// const meanTemperature = (yesterday + today + tomorrow) / 3;
+
+/////////////////////// 22 ///////////////
+
+// const highTemperatures = {
+//   yesterday: 28,
+//   today: 26,
+//   tomorrow: 33,
+// };
+// // Change code below this line
+// const { yesterday,
+//   today,
+//   tomorrow,
+//    icon = 'https://www.flaticon.com/svg/static/icons/svg/2204/2204346.svg'
+//   } = highTemperatures;
+
+// // Change code above this line
+// const meanTemperature = (yesterday + today + tomorrow) / 3;
+
+///////////////////// 23 //////////////
+// const highTemperatures = {
+//   yesterday: 28,
+//   today: 26,
+//   tomorrow: 33,
+// };
+// // Change code below this line
+// const {
+//   yesterday: highYesterday,
+//   today: highToday,
+//   tomorrow: highTomorrow,
+//   icon: highIcon = "https://www.flaticon.com/svg/static/icons/svg/2204/2204346.svg",
+// } = highTemperatures;
+
+// // Change code above this line
+// const meanTemperature = (highYesterday + highToday + highTomorrow) / 3;
+
+/////////////////// 24 ///////////////
+
+// const colors = [
+//   { hex: "#f44336", rgb: "244,67,54" },
+//   { hex: "#2196f3", rgb: "33,150,243" },
+//   { hex: "#4caf50", rgb: "76,175,80" },
+//   { hex: "#ffeb3b", rgb: "255,235,59" },
+// ];
+
+// const hexColors = [];
+// const rgbColors = [];
+// // Change code below this line
+
+// for (const {hex, rgb} of colors) {
+//   hexColors.push(hex);
+//   rgbColors.push(rgb);
+// }
+
+////////////////// 25 ////////////////
+
+// const forecast = {
+//   today: {
+//     low: 28,
+//     high: 32,
+//     icon: "https://www.flaticon.com/svg/static/icons/svg/861/861059.svg",
+//   },
+//   tomorrow: {
+//     low: 27,
+//     high: 31,
+//   },
+// };
+
+// const {
+//   today: {
+//     low: lowToday,
+//     high: highToday,
+//     icon: todayIcon = "https://www.flaticon.com/svg/static/icons/svg/861/861059.svg",
+//   },
+//   tomorrow: {
+//     low: lowTomorrow,
+//     high: highTomorrow,
+//     icon: tomorrowIcon = "https://www.flaticon.com/svg/static/icons/svg/2204/2204346.svg",
+//   },
+// } = forecast;
+
+/////////////////////// 26 ///////////////////
+
+// function calculateMeanTemperature(forecast) {
+//   const {
+//     today: { low: todayLow, high: todayHigh },
+//     tomorrow: { low: tomorrowLow, high: tomorrowHigh },
+//   } = forecast;
+
+//   // Change code above this line
+//   return (todayLow + todayHigh + tomorrowLow + tomorrowHigh) / 4;
+// }
+
+///////////////////////// 27 /////////////////
+
+// const scores = [89, 64, 42, 17, 93, 51, 26];
+// // Change code below this line
+// const bestScore = Math.max(...scores);
+// const worstScore = Math.min(...scores);
+
+//////////////////// 28 ///////////////
+
+// const firstGroupScores = [64, 42, 93];
+// const secondGroupScores = [89, 14, 51, 26];
+// const thirdGroupScores = [29, 47, 18, 97, 81];
+// // Change code below this line
+// const allScores = [...firstGroupScores, ...secondGroupScores, ...thirdGroupScores];
+// const bestScore = Math.max(...allScores);
+// const worstScore = Math.min(...allScores);
+
+///////////////////// 29 /////////////
+
+// const defaultSettings = {
+//   theme: "light",
+//   public: true,
+//   withPassword: false,
+//   minNumberOfQuestions: 10,
+//   timePerQuestion: 60,
+// };
+// const overrideSettings = {
+//   public: false,
+//   withPassword: true,
+//   timePerQuestion: 30,
+// };
+// // Change code below this line
+// const finalSettings = {...defaultSettings, ...overrideSettings};
+
+////////////////// 30 ///////////////
+
+// function makeTask(data) {
+//   const completed = false;
+//   const category = "General";
+//   const priority = "Normal";
+//   // Change code below this line
+// return {completed, category, priority, ...data}
+//   // Change code above this line
+// }
+
+////////////////// 31 ////////////////
+
+// function add(...args) {
+//   let sum = 0;
+
+//  for (let arg of args) {
+//    sum += arg;
+//  }
+//  return sum;
+//  // Change code above this line
+// }
+
+////////////////////// 32 /////////////////
+
+// function addOverNum(number, ...args) {
+//   let total = 0;
+
+//   for (const arg of args) {
+//     if (arg > number) {
+//       total += arg;
+//     }
+//   }
+
+//   return total;
+// }
+
+////////////////// 33 ///////////////
+
+// function findMatches(number, ...args) {
+//   const matches = []; // Don't change this line
+//   for (const arg of args) {
+//         if (number.includes(arg)) {
+//           matches.push(arg);
+//         }
+//       }
+//   // Change code above this line
+//   return matches;
+// }
+
+////////////////////// 34 ///////////
+
+// const bookShelf = {
+//   // Change code below this line
+//   books: ["The last kingdom", "The guardian of dreams"],
+//   getBooks() {
+//     return "Returning all books";
+//   },
+//   addBook(bookName) {
+//     return `Adding book ${bookName}`;
+//   },
+//   removeBook(bookName) {
+//     return `Deleting book ${bookName}`;
+//   },
+//   updateBook(oldName, newName) {
+//     return `Updating book ${oldName} to ${newName}`;
+//   },
+//   // Change code above this line
+// };
+
+////////////////// 35 //////
+
+// const bookShelf = {
+//   books: ["The last kingdom", "Haze", "The guardian of dreams"],
+//   updateBook(oldName, newName) {
+//     // Change code below this line
+
+// this.books.splice(this.books.indexOf(oldName), 1, newName);
+
+//     // Change code above this line
+//   },
+// };
+
+///////////////// 36 //////////
+
+// const atTheOldToad = {
+
+//   potions: [],
+// };
+
+///////////// 37 ////////
+// const atTheOldToad = {
+//   potions: ["Speed potion", "Dragon breath", "Stone skin"],
+//   // Change code below this line
+// getPotions() {
+//   return this.potions;
+// }
+//   // Change code above this line
+// };
+
+///////////// 38 /////////
+
+// const atTheOldToad = {
+//   potions: ["Speed potion", "Dragon breath", "Stone skin"],
+//   addPotion(potionName) {
+//     // Change code below this line
+
+// this.potions.push(potionName);
+
+//     // Change code above this line
+//   },
+// };
+
+
+////////////// 39 /////////
+
+// const atTheOldToad = {
+//   potions: ["Speed potion", "Dragon breath", "Stone skin"],
+//   removePotion(potionName) {
+//     // Change code below this line
+
+//     this.potions.splice(this.potions.indexOf(potionName), 1);
+
+//     // Change code above this line
+//   },
+// };
+
+//////////////// 40 ///////////////
+// const atTheOldToad = {
+//   potions: ["Speed potion", "Dragon breath", "Stone skin"],
+//   updatePotionName(oldName, newName) {
+//     // Change code below this line
+//     this.potions.splice(this.potions.indexOf(oldName), 1, newName);
+
+//     // Change code above this line
+//   },
+// };
+
+////////////////// 41 /////////////////
+// const atTheOldToad = {
+//   potions: [
+//     { name: "Speed potion", price: 460 },
+//     { name: "Dragon breath", price: 780 },
+//     { name: "Stone skin", price: 520 },
+//   ],
+//   // Change code below this line
+//   getPotions() {
+//     return this.potions;
+//   },
+//   addPotion(newPotion) {
+//     if (this.potions.includes(newPotion)) {
+//       return `Error! Potion ${newPotion} is already in your inventory!`;
+//     }
+
+//     this.potions.push(newPotion);
+//   },
+//   removePotion(potionName) {
+//     const potionIndex = this.potions.indexOf(potionName);
+
+//     if (potionIndex === -1) {
+//       return `Potion ${potionName} is not in inventory!`;
+//     }
+
+//     this.potions.splice(potionIndex, 1);
+//   },
+//   updatePotionName(oldName, newName) {
+//     const potionIndex = this.potions.indexOf(oldName);
+
+//     if (potionIndex === -1) {
+//       return `Potion ${oldName} is not in inventory!`;
+//     }
+
+//     this.potions.splice(potionIndex, 1, newName);
+//   },
+//   // Change code above this line
+// };
+
+
+////////////////// HW 4
+
+//////////////// 1
+// function makePizza() {
+//   return "Your pizza is being prepared, please wait.";
+// }
+// // Change code below this line
+// const result = makePizza();
+// const pointer =  makePizza
+
+/////////// 2
+
+// function deliverPizza(pizzaName) {
+//   return `Delivering ${pizzaName} pizza.`;
+// }
+
+// function makePizza(pizzaName) {
+//   return `Pizza ${pizzaName} is being prepared, please wait...`;
+// }
+
+// // Chande code below this line
+// function makeMessage(pizzaName, callback) {
+//   return callback(pizzaName);
+// }
+
+// makeMessage("Ultracheese", deliverPizza);
+
+//////////////////// 3
+// function makePizza(pizzaName, callback) {
+//   console.log(`Pizza ${pizzaName} is being prepared, please wait...`);
+//   callback(pizzaName);
+// }
+
+// makePizza("Royal Grand", function deliverPizza(pizzaName) {
+//   console.log(`Delivering pizza ${pizzaName}.`);
+// });
+// // Change c"Eating pizza <назва піци>"ode below this line
+
+// makePizza("Ultracheese", function eatPizza(pizzaName) {
+//   console.log("Eating pizza ${pizzaName}." );
+// } );
+
+/////////////////////////// 4 
+// const pizzaPalace = {
+//   pizzas: ["Ultracheese", "Smoked", "Four meats"],
+//   order(pizzaName, onSuccess, onError) {
+//     if (this.pizzas.includes(pizzaName)) {
+//       return onSuccess(pizzaName);
+//     }
+//     return onError(`There is no pizza with a name ${pizzaName} in the assortment.`)
+//   },
+// };
+// // Change code above this line
+
+// // Callback for onSuccess
+// function makePizza(pizzaName) {
+//   return `Your order is accepted. Cooking pizza ${pizzaName}.`;
+// }
+
+// // Callback for onError
+// function onOrderError(error) {
+//   return `Error! ${error}`;
+// }
+
+// // Method calls with callbacks
+// pizzaPalace.order("Smoked", makePizza, onOrderError);
+// pizzaPalace.order("Four meats", makePizza, onOrderError);
+// pizzaPalace.order("Big Mike", makePizza, onOrderError);
+// pizzaPalace.order("Vienna", makePizza, onOrderError);
+
+///////////////////// 5
+// function calculateTotalPrice(orderedItems) {
+//   let totalPrice = 0;
+//   // Change code below this line
+//   orderedItems.forEach(function calculateTotalPrice(totalPrice){
+//   })
+//   for (let i = 0; i < orderedItems.length; i += 1) {
+//     totalPrice += orderedItems[i];
+//   }
+//   // Change code above this line
+//   return totalPrice;
+// }
+
+////////////////////// 6
+
+// function filterArray(numbers, value) {
+//   const filteredNumbers = [];
+//   // Change code below this line
+
+
+//   for (let i = 0; i < numbers.length; i += 1) {
+//     if (numbers[i] > value) {
+//       filteredNumbers.push(numbers[i]);
+//     }
+//   }
+
+//   // Change code above this line
+//   return filteredNumbers;
+// }
+
+//////////// вірне
+// function filterArray(numbers, value) {
+//   const filteredNumbers = [];
+//   // Change code below this line
+// numbers.forEach((number) => {
+//         if (number > value) {
+//         filteredNumbers.push(number);
+//       }
+//     })
+
+
+//   // Change code above this line
+//   return filteredNumbers;
+// }
+
+////////////////////// 7 
+// function getCommonElements(firstArray, secondArray) {
+//   const commonElements = [];
+//   // Change code below this line
+
+//   for (let i = 0; i < firstArray.length; i += 1) {
+//     if (secondArray.includes(firstArray[i])) {
+//       commonElements.push(firstArray[i]);
+//     }
+//   }
+
+//   return commonElements;
+//   // Change code above this line
+// }
+
+//////////////вірне
+
+// function getCommonElements(firstArray, secondArray) {
+//   const commonElements = [];
+//   // Change code below this line
+
+//   firstArray.forEach(element => {if (secondArray.includes(element)) {
+//     commonElements.push(element);
+//   }
+// });
+
+//   return commonElements;
+//   // Change code above this line
+// }
+
+////////////// 8
+
+//   const calculateTotalPrice = (quantity, pricePerItem) => {
+//   return quantity * pricePerItem;
+// }
+
+//////////////// 9 
+
+// const calculateTotalPrice = (quantity, pricePerItem) =>  quantity * pricePerItem;
+// // Chan
+
+//////////////// 10 
+
+// function calculateTotalPrice(orderedItems) {
+//   let totalPrice = 0;
+
+//   orderedItems.forEach(function (item) {
+//     totalPrice += item;
+//   });
+
+//   return totalPrice;
+// }
+
+
+// // вірне
+
+// const calculateTotalPrice = orderedItems => { let totalPrice = 0;
+//   orderedItems.forEach (item =>  {totalPrice += item;
+// });
+
+// return totalPrice;
+// }
+
+////////////////// 11 
+// Change code below this line
+// function filterArray(numbers, value) {
+//   const filteredNumbers = [];
+
+//   numbers.forEach(function (number) {
+//     if (number > value) {
+//       filteredNumbers.push(number);
+//     }
+//   });
+
+//   // Change code above this line
+//   return filteredNumbers;
+// }
+
+// ////////////////////вірне
+
+ 
+
+// const filterArray = (numbers, value) =>
+// {
+//   const filteredNumbers = [];
+
+//   numbers.forEach(number => {
+//     if (number > value) {
+//       filteredNumbers.push(number);
+//     }
+//   });
+
+//   // Change code above this line
+//   return filteredNumbers;
+// }
+
+/////////////// 12 
+// function getCommonElements(firstArray, secondArray) {
+//   const commonElements = [];
+
+//   firstArray.forEach(function (element) {
+//     if (secondArray.includes(element)) {
+//       commonElements.push(element);
+//     }
+//   });
+
+//   // Change code above this line
+//   return commonElements;
+// }
+
+/////////////////////////вірне
+
+
+// const getCommonElements = (firstArray, secondArray) => {
+//   const commonElements = [];
+
+//   firstArray.forEach(element => {
+//     if (secondArray.includes(element)) {
+//       commonElements.push(element);
+//     }
+//   });
+
+  
+//   return commonElements;
+// }
+
+
+///////////////////// 13
+// function changeEven(numbers, value) {
+//   // Change code below this line
+//   for (let i = 0; i < numbers.length; i += 1) {
+//     if (numbers[i] % 2 === 0) {
+//       numbers[i] = numbers[i] + value;
+//     }
+//   }
+//   // Change code above this line
+// }
+
+// ////////////// вірне
+// function changeEven(numbers, value) {
+//   // Change code below this line
+//   let newArea = [...numbers];
+//   newArea.forEach((number, index) => {
+//     if (number % 2 === 0) {
+//       newArea[index] += value;
+//     }
+//   } )
+
+//   return newArea;
+//   }
+ 
+////////////////// 14 
+const planets = ["Earth", "Mars", "Venus", "Jupiter"];
+// Change code below this line
+const planetsLengths = planets;
+
+//////////////////вірне
+
